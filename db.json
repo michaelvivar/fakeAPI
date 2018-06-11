@@ -1,0 +1,145 @@
+{
+    "config": [
+        {
+            "name": "products",
+            "title": "",
+            "type": "table",
+            "columndFields": [
+                {
+                    "columnName": "productName",
+                    "columnDisplayName": "Product Name",
+                    "isVisble": true,
+                    "type": "string"
+                }, {
+                    "columnName": "stockCount",
+                    "columnDisplayName": "Stock Count",
+                    "isVisble": true,
+                    "type": "number"
+                }, {
+                    "columnName": "manufacturer",
+                    "columnDisplayName": "Manufacturer",
+                    "isVisble": true,
+                    "type": "string"
+                }, {
+                    "columnName": "description",
+                    "columnDisplayName": "Product Description",
+                    "isVisble": true,
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "users",
+            "title": "Users",
+            "type": "card",
+            "columndFields": [
+                {
+                    "columnName": "displayImage",
+                    "columnDisplayName": "Display image",
+                    "isVisble": true,
+                    "type": "image"
+                }, {
+                    "columnName": "fullname",
+                    "columnDisplayName": "Full name",
+                    "isVisble": true,
+                    "type": "string"
+                }, {
+                    "columnName": "role",
+                    "columnDisplayName": "Role",
+                    "isVisble": true,
+                    "type": "string"
+                }, {
+                    "columnName": "bio",
+                    "columnDisplayName": "Bio",
+                    "isVisble": true,
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "mainview",
+            "menu": [
+                {
+                    "name": "users",
+                    "displayName": "Users"
+                }, {
+                    "name": "products",
+                    "displayName": "Products"
+                }
+            ],
+            "content": "<div>Sample content</div>"
+        }
+    ],
+    "products": [{
+            "productName": "Product1",
+            "stockCount": "54",
+            "manufacturer": "Manufacturer1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices rhoncus tellus nec rutrum. In hac habitasse platea dictumst. Suspendisse dapibus efficitur justo, at commodo."
+        }, {
+            "productName": "Product2",
+            "stockCount": "63",
+            "manufacturer": "Manufacturer1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices rhoncus tellus nec rutrum. In hac habitasse platea dictumst. Suspendisse dapibus efficitur justo, at commodo."
+        }, {
+            "productName": "Product3",
+            "stockCount": "54",
+            "manufacturer": "Manufacturer1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices rhoncus tellus nec rutrum. In hac habitasse platea dictumst. Suspendisse dapibus efficitur justo, at commodo."
+        }, {
+            "productName": "Product4",
+            "stockCount": "500",
+            "manufacturer": "Manufacturer2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices rhoncus tellus nec rutrum. In hac habitasse platea dictumst. Suspendisse dapibus efficitur justo, at commodo."
+        }, {
+            "productName": "Product5",
+            "stockCount": "3",
+            "manufacturer": "Manufacturer2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices rhoncus tellus nec rutrum. In hac habitasse platea dictumst. Suspendisse dapibus efficitur justo, at commodo."
+        }, {
+            "productName": "Product6",
+            "stockCount": "54",
+            "manufacturer": "Manufacturer2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices rhoncus tellus nec rutrum. In hac habitasse platea dictumst. Suspendisse dapibus efficitur justo, at commodo."
+        }, {
+            "productName": "Product7",
+            "stockCount": "0",
+            "manufacturer": "Manufacturer2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices rhoncus tellus nec rutrum. In hac habitasse platea dictumst. Suspendisse dapibus efficitur justo, at commodo."
+        }],
+    "users": [{
+            "displayImage": "",
+            "fullname": "Jake Peralta",
+            "role": "Detective",
+            "bio": "A talented but childish detective."
+        }, {
+            "displayImage": "",
+            "fullname": "Amy Santiago",
+            "role": "Detective",
+            "bio": "Uptight person that seeks other Holt's approval."
+        }, {
+            "displayImage": "",
+            "fullname": "Rosa Diaz",
+            "role": "Detective",
+            "bio": "A smart, tough, aloof, and mysterious detective."
+        }, {
+            "displayImage": "",
+            "fullname": "Terry Jeffords",
+            "role": "Sergeant",
+            "bio": "Terry loves yogurt."
+        }, {
+            "displayImage": "",
+            "fullname": "Gina Linetti",
+            "role": "Assistant",
+            "bio": "Sardonic and egomaniacal civilian administrator and Captain Holt's assistant."
+        }, {
+            "displayImage": "",
+            "fullname": "Charles Boyle",
+            "role": "Detective",
+            "bio": "Jake's bestfriend."
+        }, {
+            "displayImage": "",
+            "fullname": "Ray Holt",
+            "role": "Captain",
+            "bio": "Jake's bestfriend."
+        }]
+}
